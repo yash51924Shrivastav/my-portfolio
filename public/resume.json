@@ -1,0 +1,97 @@
+{
+  "name": "Yash Shrivastav",
+  "title": "Full Stack Developer",
+  "email": "yashshrivastav95177@gmail.com",
+  "phone": "9517751924",
+  "location": "Ludhiana, Punjab 141001",
+  "linkedin": "linkedin.com/in/yashshrivastav/",
+  "github": "github.com/yash51924Shrivastav",
+  "summary": "Passionate Full Stack Developer with expertise in MERN stack and modern web technologies. Experienced in building responsive, user-centric applications and optimizing performance. Proven track record in full-stack development, from database design to front-end implementation.",
+  "skills": {
+    "frontend": ["React JS", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "Bootstrap", "Canva", "Responsive Web Design"],
+    "backend": ["Node JS", "Express.js", "PHP", "Laravel", "REST APIs", "Authentication"],
+    "databases": ["MongoDB"],
+    "tools": ["Git", "GitHub", "Data Structures and Algorithms", "System Design LLD", "C++", "Python"]
+  },
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Tutorials Point (India) Private Limited",
+      "period": "Since Jan 2025",
+      "achievements": [
+        "Maintained the MERN application with Bun runtime, implemented the responsive React components and integrated RESTful APIs to make sure seamless data flow and optimal user experience",
+        "Optimized the FontAwesome icons loading time by making the content library, improving the page load times and reducing the bundle sizes of the imports",
+        "Developed UI/UX webpages for Tutorix sub-brand, using Tailwind CSS and vanilla JavaScript to build intuitive, accessible interfaces aligned with brand guidelines and user experience standards",
+        "Developed custom video player functionality using Video.js, implementing advanced playback controls and ensuring cross-browser compatibility for enhanced media delivery",
+        "Enhanced user engagement by redesign the pages with Three.js animations and responsive web design principles, creating visually appealing and mobile-optimized experiences across all device breakpoints"
+      ]
+    },
+    {
+      "title": "Software Developer Internship – MERN",
+      "company": "DESIGNER MINDZ PRIVATE LIMITED",
+      "period": "June 2025 – Nov 2025",
+      "achievements": [
+        "Built and deployed full-stack web applications using MongoDB, Express.js, React, and Node.js, gaining hands-on experience in end-to-end development from database design to front-end implementation",
+        "Designed and implemented MongoDB database schemas with proper indexing and data relationships, ensuring efficient data retrieval and scalability for growing application requirements",
+        "Developed RESTful APIs using Express.js and Node.js to handle CRUD operations, authentication workflows, and business logic, enabling smooth communication between front-end and database layers",
+        "Collaborated with the development team to debug and resolve technical issues across the stack, while contributing to code reviews and following best practices for version control using Git"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "myCart - E-commerce Application",
+      "description": "Built an online shopping website using MERN stack where users can browse products, add items to cart, and complete purchases with secure login and checkout features. Designed the front-end with React to display product pages, search and filter options, and a smooth checkout flow. Connected the website to backend APIs to fetch product details, manage user accounts, and process orders while keeping everything synced with the MongoDB database.",
+      "technologies": ["MERN Stack", "React", "MongoDB", "Express", "Node.js", "React Context"],
+      "github": "#",
+      "demo": "#",
+      "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+      "featured": true
+    },
+    {
+      "id": "p2",
+      "title": "Restaurant Design Application",
+      "description": "Created a restaurant website with React that lets customers view menus, make table reservations, and explore different sections of the restaurant. Set up page navigation with React Router and used hooks like useState and useEffect to handle form inputs, button clicks, and loading data from APIs. Styled the website with Tailwind CSS and added animations to make the browsing experience more interactive.",
+      "technologies": ["React JS", "Tailwind CSS", "React Router", "UI Components"],
+      "github": "#",
+      "demo": "#",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+      "featured": true
+    }
+  ],
+  "education": [
+    {
+      "degree": "Masters in Computer Applications — CGPA: 7.92",
+      "institution": "Lovely Professional University Punjab",
+      "period": "2023 – 2025"
+    },
+    {
+      "degree": "Bachelors in Computer Applications — CGPA: 7.80",
+      "institution": "Lovely Professional University Punjab",
+      "period": "2020 – 2023"
+    },
+    {
+      "degree": "10th — Percentage: 82%",
+      "institution": "Rashtriya Bal Vidya Mandir",
+      "period": "2017 – 2018"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "MERN stack development",
+      "issuer": "Designer Mindz",
+      "date": "November 2025"
+    },
+    {
+      "name": "Full stack development with MERN stack development",
+      "issuer": "Cipherschools",
+      "date": "August 2022"
+    },
+    {
+      "name": "React Native Hooks and props Management",
+      "issuer": "Udemy",
+      "date": "March 2021"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "p1",
+    "title": "Portfolio Website",
+    "description": "Personal portfolio showcasing projects, resume, and contact.",
+    "technologies": ["React", "TypeScript", "Tailwind CSS"],
+    "github": "#",
+    "demo": "#",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "p2",
+    "title": "API Server",
+    "description": "Express API powering profile, skills, projects, blogs, and resume data.",
+    "technologies": ["Node.js", "Express"],
+    "github": "#",
+    "demo": "#",
+    "image": "",
+    "featured": true
+  }
+]
