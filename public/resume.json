@@ -6,6 +6,7 @@
   "location": "Ludhiana, Punjab 141001",
   "linkedin": "linkedin.com/in/yashshrivastav/",
   "github": "github.com/yash51924Shrivastav",
+  "portfolio": "yash-portfolio-0503.netlify.app",
   "summary": "Passionate Full Stack Developer with expertise in MERN stack and modern web technologies. Experienced in building responsive, user-centric applications and optimizing performance. Proven track record in full-stack development, from database design to front-end implementation.",
   "skills": {
     "frontend": ["React JS", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "Bootstrap", "Canva", "Responsive Web Design"],
@@ -21,20 +22,29 @@
       "achievements": [
         "Maintained the MERN application with Bun runtime, implemented the responsive React components and integrated RESTful APIs to make sure seamless data flow and optimal user experience",
         "Optimized the FontAwesome icons loading time by making the content library, improving the page load times and reducing the bundle sizes of the imports",
-        "Developed UI/UX webpages for Tutorix sub-brand, using Tailwind CSS and vanilla JavaScript to build intuitive, accessible interfaces aligned with brand guidelines and user experience standards",
+        "Developed UI/UX webpages for Tutorix sub-brand, using Tailwind CSS and vanilla JavaScript to build intuitive, accessible interfaces aligned with brand guidelines and user experience standards.",
         "Developed custom video player functionality using Video.js, implementing advanced playback controls and ensuring cross-browser compatibility for enhanced media delivery",
         "Enhanced user engagement by redesign the pages with Three.js animations and responsive web design principles, creating visually appealing and mobile-optimized experiences across all device breakpoints"
       ]
     },
     {
-      "title": "Software Developer Internship – MERN",
+      "title": "Software Developer Internship",
       "company": "DESIGNER MINDZ PRIVATE LIMITED",
-      "period": "June 2025 – Nov 2025",
+      "period": "July 2024 – Dec 2024",
       "achievements": [
-        "Built and deployed full-stack web applications using MongoDB, Express.js, React, and Node.js, gaining hands-on experience in end-to-end development from database design to front-end implementation",
-        "Designed and implemented MongoDB database schemas with proper indexing and data relationships, ensuring efficient data retrieval and scalability for growing application requirements",
-        "Developed RESTful APIs using Express.js and Node.js to handle CRUD operations, authentication workflows, and business logic, enabling smooth communication between front-end and database layers",
-        "Collaborated with the development team to debug and resolve technical issues across the stack, while contributing to code reviews and following best practices for version control using Git"
+        "Engineered interactive single-page applications using React.js and TypeScript, implementing reusable functional components with hooks and state management, while styling interfaces with Tailwind CSS utility classes to create modern, responsive user experiences across multiple client projects",
+        "Integrated CI/CD pipelines using Git workflows and automated deployment processes, managing version control through branching strategies (feature branches, pull requests) and collaborating with team members to maintain code quality and streamline production releases",
+        "Transitioned legacy PHP applications to modern React-based architecture, leveraging TypeScript for type safety and error reduction, which improved application performance by implementing component-level optimization and reducing bundle sizes through code splitting"
+      ]
+    },
+    {
+      "title": "Web Developer Internship",
+      "company": "INCLUDE HELP PRIVATE LIMITED",
+      "period": "Jan 2024 – June 2024",
+      "achievements": [
+        "Developed responsive web applications using HTML5, CSS3, and JavaScript, implementing Bootstrap framework for mobile-first design and ensuring cross-browser compatibility through W3C Markup Validation Service to maintain clean, semantic code structure",
+        "Built dynamic server-side applications with PHP and Laravel framework, creating reusable components including controllers, models, and Blade templates while following MVC architecture patterns for scalable web solutions",
+        "Optimized website performance by implementing code minification, lazy loading techniques, and caching strategies, while validating markup standards using W3C tools to improve page load times and ensure accessibility compliance"
       ]
     }
   ],
@@ -42,7 +52,7 @@
     {
       "id": "p1",
       "title": "myCart - E-commerce Application",
-      "description": "Built an online shopping website using MERN stack where users can browse products, add items to cart, and complete purchases with secure login and checkout features. Designed the front-end with React to display product pages, search and filter options, and a smooth checkout flow. Connected the website to backend APIs to fetch product details, manage user accounts, and process orders while keeping everything synced with the MongoDB database.",
+      "description": "Built an online shopping website using MERN stack where users can browse products, add items to cart, and complete purchases with secure login and checkout features. Designed the front-end with React to display product pages, search and filter options, and a smooth checkout flow that works well on both phones and computers. Used React Context for managing cart items and user data across different pages, and styled the interface to be clean and easy to use on any device.",
       "technologies": ["MERN Stack", "React", "MongoDB", "Express", "Node.js", "React Context"],
       "github": "#",
       "demo": "#",
@@ -52,7 +62,7 @@
     {
       "id": "p2",
       "title": "Restaurant Design Application",
-      "description": "Created a restaurant website with React that lets customers view menus, make table reservations, and explore different sections of the restaurant. Set up page navigation with React Router and used hooks like useState and useEffect to handle form inputs, button clicks, and loading data from APIs. Styled the website with Tailwind CSS and added animations to make the browsing experience more interactive.",
+      "description": "Created a restaurant website with React that lets customers view menus, make table reservations, and explore different sections of the restaurant. Set up page navigation with React Router and used hooks like useState and useEffect to handle form inputs, button clicks, and loading data from APIs. Styled the website with Tailwind CSS and added animations to make the browsing experience more interactive and visually appealing for users. Used various React libraries for image sliders, form handling, and reusable UI components to keep the code organized and easier to maintain.",
       "technologies": ["React JS", "Tailwind CSS", "React Router", "UI Components"],
       "github": "#",
       "demo": "#",
