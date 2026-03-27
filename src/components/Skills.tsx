@@ -66,6 +66,9 @@ const SkillCard: React.FC<{ skill: Skill }> = ({ skill }) => {
 };
 
 const Skills: React.FC<SkillsProps> = ({ skills }) => {
+  if (!Array.isArray(skills)) {
+    return null;
+  }
   const skillsByCategory = skills.reduce((acc, skill) => {
     if (!acc[skill.category]) {
       acc[skill.category] = [];

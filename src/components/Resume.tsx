@@ -11,21 +11,28 @@ interface ResumeData {
   linkedin: string;
   summary: string;
   skills: {
-    frontend: string[];
-    backend: string[];
-    databases: string[];
-    tools: string[];
+    languages?: string[];
+    frameworks?: string[];
+    frontend?: string[];
+    backend?: string[];
+    databases?: string[];
+    tools?: string[];
+    softSkills?: string[];
   };
   experience: Array<{
     title: string;
     company: string;
     period: string;
     achievements: string[];
+    tech?: string[];
   }>;
   education: Array<{
     degree: string;
     institution: string;
     period: string;
+    cgpa?: string;
+    percentage?: string;
+    location?: string;
   }>;
   certificates?: Array<{
     name: string;
@@ -149,22 +156,48 @@ const Resume: React.FC<ResumeProps> = ({ resumeData }) => {
             Technical Skills
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 text-sm">
-            <div>
-              <h4 className="font-semibold text-gray-800 mb-1">Frontend:</h4>
-              <p className="text-gray-700">{resumeData.skills.frontend.join(', ')}</p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-gray-800 mb-1">Backend:</h4>
-              <p className="text-gray-700">{resumeData.skills.backend.join(', ')}</p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-gray-800 mb-1">Databases:</h4>
-              <p className="text-gray-700">{resumeData.skills.databases.join(', ')}</p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-gray-800 mb-1">Tools:</h4>
-              <p className="text-gray-700">{resumeData.skills.tools.join(', ')}</p>
-            </div>
+            {resumeData.skills.languages && (
+              <div>
+                <h4 className="font-semibold text-gray-800 mb-1">Languages:</h4>
+                <p className="text-gray-700">{resumeData.skills.languages.join(', ')}</p>
+              </div>
+            )}
+            {resumeData.skills.frameworks && (
+              <div>
+                <h4 className="font-semibold text-gray-800 mb-1">Frameworks:</h4>
+                <p className="text-gray-700">{resumeData.skills.frameworks.join(', ')}</p>
+              </div>
+            )}
+            {resumeData.skills.frontend && (
+              <div>
+                <h4 className="font-semibold text-gray-800 mb-1">Frontend:</h4>
+                <p className="text-gray-700">{resumeData.skills.frontend.join(', ')}</p>
+              </div>
+            )}
+            {resumeData.skills.backend && (
+              <div>
+                <h4 className="font-semibold text-gray-800 mb-1">Backend:</h4>
+                <p className="text-gray-700">{resumeData.skills.backend.join(', ')}</p>
+              </div>
+            )}
+            {resumeData.skills.databases && (
+              <div>
+                <h4 className="font-semibold text-gray-800 mb-1">Databases:</h4>
+                <p className="text-gray-700">{resumeData.skills.databases.join(', ')}</p>
+              </div>
+            )}
+            {resumeData.skills.tools && (
+              <div>
+                <h4 className="font-semibold text-gray-800 mb-1">Tools:</h4>
+                <p className="text-gray-700">{resumeData.skills.tools.join(', ')}</p>
+              </div>
+            )}
+            {resumeData.skills.softSkills && (
+              <div>
+                <h4 className="font-semibold text-gray-800 mb-1">Soft Skills:</h4>
+                <p className="text-gray-700">{resumeData.skills.softSkills.join(', ')}</p>
+              </div>
+            )}
           </div>
         </div>
 
@@ -178,13 +211,18 @@ const Resume: React.FC<ResumeProps> = ({ resumeData }) => {
               <div key={index} className="border-l-2 border-blue-500 pl-3">
                 <h4 className="font-semibold text-gray-800 text-sm">{exp.title}</h4>
                 <p className="text-gray-600 text-xs mb-1">{exp.company} | {exp.period}</p>
-                <ul className="list-disc list-inside space-y-0.5">
+                <ul className="list-disc list-inside space-y-0.5 mb-1">
                   {exp.achievements.map((achievement, i) => (
                     <li key={i} className="text-xs text-gray-700 leading-snug">
                       {achievement}
                     </li>
                   ))}
                 </ul>
+                {exp.tech && (
+                  <p className="text-[10px] text-gray-500 italic">
+                    <span className="font-semibold">Tech:</span> {exp.tech.join(', ')}
+                  </p>
+                )}
               </div>
             ))}
           </div>
@@ -200,6 +238,11 @@ const Resume: React.FC<ResumeProps> = ({ resumeData }) => {
               <div key={index} className="border-l-2 border-green-500 pl-3">
                 <h4 className="font-semibold text-gray-800 text-sm">{edu.degree}</h4>
                 <p className="text-gray-600 text-xs">{edu.institution} | {edu.period}</p>
+                {(edu.cgpa || edu.percentage) && (
+                  <p className="text-xs text-gray-700">
+                    {edu.cgpa ? `CGPA: ${edu.cgpa}` : `Percentage: ${edu.percentage}`}
+                  </p>
+                )}
               </div>
             ))}
           </div>

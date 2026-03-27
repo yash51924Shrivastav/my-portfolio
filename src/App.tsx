@@ -97,10 +97,7 @@ function App() {
         data &&
         typeof data.name === 'string' &&
         data.skills &&
-        Array.isArray(data.skills.frontend) &&
-        Array.isArray(data.skills.backend) &&
-        Array.isArray(data.skills.databases) &&
-        Array.isArray(data.skills.tools) &&
+        (Array.isArray(data.skills.languages) || Array.isArray(data.skills.frontend)) &&
         Array.isArray(data.experience) &&
         Array.isArray(data.education);
       const buildProjectsFromResume = (resume: any): Project[] | null => {
@@ -140,14 +137,17 @@ function App() {
         };
 
         const icons: Record<string, string> = {
+          Languages: '💻',
+          Frameworks: '🧩',
           Frontend: '💻',
           Backend: '🧩',
           Databases: '🗄️',
           Tools: '🛠️',
+          'Soft Skills': '🤝',
         };
         const out: Skill[] = [];
-        const pushCat = (catKey: keyof typeof resume.skills, label: string) => {
-          const arr = resume.skills[catKey];
+        const pushCat = (catKey: string, label: string) => {
+          const arr = (resume.skills as any)[catKey];
           if (Array.isArray(arr)) {
             arr.forEach((name: string, i: number) => {
               const meta = skillMetadata[name] || { level: 85 };
@@ -162,10 +162,13 @@ function App() {
             });
           }
         };
+        pushCat('languages', 'Languages');
+        pushCat('frameworks', 'Frameworks');
         pushCat('frontend', 'Frontend');
         pushCat('backend', 'Backend');
         pushCat('databases', 'Databases');
         pushCat('tools', 'Tools');
+        pushCat('softSkills', 'Soft Skills');
         return out;
       };
       const bust = { headers: { 'Cache-Control': 'no-cache', Pragma: 'no-cache' }, params: { t: Date.now() } };
