@@ -7,53 +7,57 @@
   "linkedin": "linkedin.com/in/yashshrivastav/",
   "github": "github.com/yash51924Shrivastav",
   "portfolio": "yash-portfolio-0503.netlify.app",
-  "summary": "Passionate Full Stack Developer with expertise in MERN stack and modern web technologies. Experienced in building responsive, user-centric applications and optimizing performance. Proven track record in full-stack development, from database design to front-end implementation.",
+  "summary": "Passionate MERN Stack Developer with 2+ years of experience building scalable and performant full-stack web applications. Proficient in React.js, Node.js, Express.js, and MongoDB, with a strong focus on clean code, intuitive UI, and seamless API integration.",
   "skills": {
-    "frontend": ["React JS", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "Bootstrap", "Canva", "Responsive Web Design"],
-    "backend": ["Node JS", "Express.js", "PHP", "Laravel", "REST APIs", "Authentication"],
-    "databases": ["MongoDB"],
-    "tools": ["Git", "GitHub", "Data Structures and Algorithms", "System Design LLD", "C++", "Python"]
+    "languages": ["C++", "JavaScript", "TypeScript", "Java", "PHP", "Python", "HTML", "CSS"],
+    "frameworks": ["React JS", "Node JS", "Express JS", "Bootstrap", "Tailwind CSS", "Laravel"],
+    "tools": ["MySQL", "MongoDB", "Git", "GitHub", "Postman", "JWT/Authentication", "Canva"],
+    "softSkills": ["Team Collaboration", "Communication", "Project Management", "Agile Adaptability"]
   },
   "experience": [
     {
       "title": "Software Engineer",
       "company": "Tutorials Point (India) Private Limited",
-      "period": "Since Jan 2025",
+      "type": "On-site",
+      "period": "Jan 2025 – Feb 2026",
       "achievements": [
-        "Maintained the MERN application with Bun runtime, implemented the responsive React components and integrated RESTful APIs to make sure seamless data flow and optimal user experience",
-        "Optimized the FontAwesome icons loading time by making the content library, improving the page load times and reducing the bundle sizes of the imports",
-        "Developed UI/UX webpages for Tutorix sub-brand, using Tailwind CSS and vanilla JavaScript to build intuitive, accessible interfaces aligned with brand guidelines and user experience standards.",
-        "Developed custom video player functionality using Video.js, implementing advanced playback controls and ensuring cross-browser compatibility for enhanced media delivery",
-        "Enhanced user engagement by redesign the pages with Three.js animations and responsive web design principles, creating visually appealing and mobile-optimized experiences across all device breakpoints"
-      ]
+        "Maintained MERN app (Bun runtime) for 500K+ users; built 15+ React components with React Hooks + Axios API integration — cut latency ~30%, bundle size ~40%, Lighthouse scores +20pts.",
+        "Built Tutorix pages with Tailwind CSS, React Router, and a custom Video.js player with full playback controls for 200K+ learners across all major browsers.",
+        "Redesigned pages with Three.js animations and Mongoose-backed MongoDB models, boosting engagement by 18% across all breakpoints."
+      ],
+      "tech": ["Node", "Express", "MongoDB", "Mongoose", "Bun", "React Hooks", "Axios", "JavaScript", "REST APIs"]
     },
     {
-      "title": "Software Developer Internship",
-      "company": "DESIGNER MINDZ PRIVATE LIMITED",
-      "period": "July 2024 – Dec 2024",
+      "title": "Software Developer Intern",
+      "company": "Designer Mindz Private Limited",
+      "type": "On-site",
+      "period": "Jul 2024 – Dec 2024",
       "achievements": [
-        "Engineered interactive single-page applications using React.js and TypeScript, implementing reusable functional components with hooks and state management, while styling interfaces with Tailwind CSS utility classes to create modern, responsive user experiences across multiple client projects",
-        "Integrated CI/CD pipelines using Git workflows and automated deployment processes, managing version control through branching strategies (feature branches, pull requests) and collaborating with team members to maintain code quality and streamline production releases",
-        "Transitioned legacy PHP applications to modern React-based architecture, leveraging TypeScript for type safety and error reduction, which improved application performance by implementing component-level optimization and reducing bundle sizes through code splitting"
-      ]
+        "Shipped 10+ SPAs using React Hooks, React Router, and Redux Toolkit — cut re-renders 35% and deployment time 50% via Agile CI/CD pipelines and Git workflows.",
+        "Migrated 3 PHP codebases to React + TypeScript with Vite, code-splitting, and Axios — cut bundle size 45% and improved Time-to-Interactive by 2+ seconds."
+      ],
+      "tech": ["TypeScript", "Redux Toolkit", "React Hooks", "React Router", "Axios", "Vite", "Tailwind CSS", "Git", "CI/CD", "PHP", "JavaScript", "REST APIs", "Agile"]
     },
     {
-      "title": "Web Developer Internship",
-      "company": "INCLUDE HELP PRIVATE LIMITED",
-      "period": "Jan 2024 – June 2024",
+      "title": "Web Developer Intern",
+      "company": "Include Help Private Limited",
+      "type": "Remote",
+      "period": "Jan 2024 – Jun 2024",
       "achievements": [
-        "Developed responsive web applications using HTML5, CSS3, and JavaScript, implementing Bootstrap framework for mobile-first design and ensuring cross-browser compatibility through W3C Markup Validation Service to maintain clean, semantic code structure",
-        "Built dynamic server-side applications with PHP and Laravel framework, creating reusable components including controllers, models, and Blade templates while following MVC architecture patterns for scalable web solutions",
-        "Optimized website performance by implementing code minification, lazy loading techniques, and caching strategies, while validating markup standards using W3C tools to improve page load times and ensure accessibility compliance"
-      ]
+        "Built 8+ responsive web apps with HTML5, CSS3, Bootstrap, and PHP/Laravel using MVC patterns and Fetch API — achieved 98% W3C compliance and cut API response time 20%.",
+        "Boosted performance via minification, lazy loading, and caching — reduced page load time 35% and maintained 90+ PageSpeed scores."
+      ],
+      "tech": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "PHP", "Laravel", "MySQL", "MVC", "Fetch API", "REST APIs"]
     }
   ],
   "projects": [
     {
       "id": "p1",
-      "title": "myCart - E-commerce Application",
-      "description": "Built an online shopping website using MERN stack where users can browse products, add items to cart, and complete purchases with secure login and checkout features. Designed the front-end with React to display product pages, search and filter options, and a smooth checkout flow that works well on both phones and computers. Used React Context for managing cart items and user data across different pages, and styled the interface to be clean and easy to use on any device.",
-      "technologies": ["MERN Stack", "React", "MongoDB", "Express", "Node.js", "React Context"],
+      "title": "myCart - E-commerce Full-Stack Application",
+      "stack": "MERN Stack",
+      "period": "Jan 2026 – Feb 2026",
+      "description": "Full-stack e-commerce app with JWT auth, cart/checkout, and Mongoose ODM — optimized queries/indexing to cut API response time ~35%; 90+ Lighthouse score. Node.js/Express RESTful endpoints for product and order operations with modular route structure.",
+      "technologies": ["MongoDB", "Mongoose", "Express.js", "React.js", "Node.js", "Redux Toolkit", "React Hooks", "React Router", "Axios", "JWT", "REST APIs"],
       "github": "#",
       "demo": "#",
       "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
@@ -61,9 +65,11 @@
     },
     {
       "id": "p2",
-      "title": "Restaurant Design Application",
-      "description": "Created a restaurant website with React that lets customers view menus, make table reservations, and explore different sections of the restaurant. Set up page navigation with React Router and used hooks like useState and useEffect to handle form inputs, button clicks, and loading data from APIs. Styled the website with Tailwind CSS and added animations to make the browsing experience more interactive and visually appealing for users. Used various React libraries for image sliders, form handling, and reusable UI components to keep the code organized and easier to maintain.",
-      "technologies": ["React JS", "Tailwind CSS", "React Router", "UI Components"],
+      "title": "AI Tools Hub - AI Tools Directory",
+      "stack": "MERN Stack",
+      "period": "Dec 2025 – Jan 2026",
+      "description": "MERN AI tools directory with category browsing, reviews, and video lessons — reduced page load ~40% via Vite, lazy loading, and code splitting. Node.js/Express + Mongoose REST APIs across modular routes; React frontend with Axios, React Hooks, and React Router for navigation.",
+      "technologies": ["Express.js", "React.js", "Node.js", "React Hooks", "React Router", "Axios", "Vite", "REST APIs"],
       "github": "#",
       "demo": "#",
       "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
@@ -72,36 +78,32 @@
   ],
   "education": [
     {
-      "degree": "Masters in Computer Applications — CGPA: 7.92",
-      "institution": "Lovely Professional University Punjab",
-      "period": "2023 – 2025"
+      "degree": "Masters in Computer Applications",
+      "cgpa": "7.92",
+      "institution": "Lovely Professional University",
+      "location": "Jalandhar, Punjab",
+      "period": "July 2023 – May 2025"
     },
     {
-      "degree": "Bachelors in Computer Applications — CGPA: 7.80",
-      "institution": "Lovely Professional University Punjab",
-      "period": "2020 – 2023"
+      "degree": "Bachelors in Computer Applications",
+      "cgpa": "7.80",
+      "institution": "Lovely Professional University",
+      "location": "Jalandhar, Punjab",
+      "period": "August 2020 – June 2023"
     },
     {
-      "degree": "10th — Percentage: 82%",
+      "degree": "Matriculation",
+      "percentage": "82%",
       "institution": "Rashtriya Bal Vidya Mandir",
-      "period": "2017 – 2018"
+      "location": "Ludhiana, Punjab",
+      "period": "April 2017 – March 2018"
     }
   ],
   "certificates": [
     {
-      "name": "MERN stack development",
-      "issuer": "Designer Mindz",
-      "date": "November 2025"
-    },
-    {
-      "name": "Full stack development with MERN stack development",
-      "issuer": "Cipherschools",
-      "date": "August 2022"
-    },
-    {
-      "name": "React Native Hooks and props Management",
-      "issuer": "Udemy",
-      "date": "March 2021"
+      "name": "Full Stack Development with MERN Stack",
+      "issuer": "CipherSchools",
+      "date": "June 2024 – July 2024"
     }
   ]
 }
